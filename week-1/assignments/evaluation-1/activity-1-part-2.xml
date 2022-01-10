@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8">
+<person_interests>
+    <person>
+        <name>Patricia</name>
+        <hobbies>
+            <item>read</item>
+            <item>write</item>
+        </hobbies>
+    </person>
+    <person>
+        <name>Ben</name>
+        <hobbies>
+            <item>sing</item>
+            <item>sew</item>
+        </hobbies>
+    </person>
+</person_interests>
