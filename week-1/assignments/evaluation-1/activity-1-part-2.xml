@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8">
+<?xml version="1.0" encoding="UTF-8"?>
 <person_interests>
     <person>
         <name>Patricia</name>
@@ -14,4 +14,64 @@
             <item>sew</item>
         </hobbies>
     </person>
+     <person>
+        <name>Sam</name>
+        <hobbies>
+            <item>sing</item>
+            <item>sew</item>
+        </hobbies>
+    </person>
+     <person>
+        <name>Drake</name>
+        <hobbies>
+            <item>sing</item>
+            <item>sew</item>
+        </hobbies>
+    </person>
+     <person>
+        <name>Ram</name>
+        <hobbies>
+            <item>sing</item>
+            <item>sew</item>
+        </hobbies>
+    </person>
+     <person>
+        <name>Josh</name>
+        <hobbies>
+            <item>sing</item>
+            <item>sew</item>
+        </hobbies>
+    </person>
+     <person>
+        <name>Maria</name>
+        <hobbies>
+            <item>sing</item>
+            <item>sew</item>
+        </hobbies>
+    </person>
+     <person>
+        <name>Megan</name>
+        <hobbies>
+            <item>sing</item>
+            <item>sew</item>
+        </hobbies>
+    </person>
+     <person>
+        <name>Era</name>
+        <hobbies>
+            <item>sing</item>
+            <item>sew</item>
+        </hobbies>
+    </person>
+     <person>
+        <name>Joy</name>
+        <hobbies>
+            <item>sing</item>
+            <item>sew</item>
+        </hobbies>
+    </person>
 </person_interests>
+<!-- The person_interests node contains a list which contains person entities
+The person entity has atrributes name & hobbies
+The hobbies tag also contain a list of item tags and it's text contains the hobby description
+ -->
