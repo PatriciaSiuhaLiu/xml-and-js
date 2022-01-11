@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./evaluation-2.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <div id="wrapper" class="wrapper">
+    <form onsubmit="onSubmitHandler(event)">
+        <div class="row padding10">
+        <label for="email" >Your Email *: </label>
+        <input id="email" required/>
+    </div>
+    <div class="row padding10">
+        <label for="date">Date of Visit: </label>
+        <input id ="date" type="date"/>
+    </div>
+    <div class="padding10">
+        <label for="comment">Your Comment:</label>
+        <textarea id="comment" rows="7" cols="32"></textarea>
+    </div> 
+    <div class="padding10">
+        <button type="submit">Submit your Feedback</button>
+    </div>
+    <div id="display" class="padding10"></div>
+    </form>
+    </div>
+    <script src="./evaluation-2-script.js" ></script>
+</body>
+</html>
