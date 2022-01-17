@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<businessCard>
+        <name>Joe Marini</name>
+        <contacts>
+            <contact>
+                <countryCode>+1</countryCode>
+                <areaCode>415</areaCode>
+                <number>555-1234</number>
+                <type>home</type>
+            </contact>
+            <contact>
+                <countryCode>+1</countryCode>
+                <areaCode>800</areaCode>
+                <number>555-9867</number>
+                <type>work</type>
+            </contact>
+             <contact>
+                <countryCode>+1</countryCode>
+                <areaCode>510</areaCode>
+                <number>555-1212</number>
+                <type>mobile</type>
+            </contact>
+        </contacts>
+        <emailID>joe@joe.com</emailID>
+    </businessCard>
