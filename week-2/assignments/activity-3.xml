@@ -2,7 +2,7 @@
 <products>
   <product>
     <productName>Dog Shirt Gift Basket</productName>
-    <manufacturer>&#153;SJB Pet Boutique</manufacturer>
+    <manufacturer>SJB Pet Boutique&#8482;</manufacturer>
     <description>Something for every day of the week</description>
     <price currency="US">$35.99</price>
     <price currency="CAD">CAD$44.99</price>
@@ -11,7 +11,7 @@
   </product>
   <product>
     <productName>Car Curiosity Basket</productName>
-    <manufacturer>&#153;SJB Pet Boutique</manufacturer>
+    <manufacturer>SJB Pet Boutique&#8482;</manufacturer>
     <description>Playtime morning, noon, and night</description>
     <price currency="US">	&#36;15.99</price>
     <price currency="CAD">	&#36;18.82</price>
@@ -20,7 +20,7 @@
   </product>
   <product>
     <productName>Piggy Snuggle Basket</productName>
-    <manufacturer>&#153;ACME</manufacturer>
+    <manufacturer>ACME&#8482;</manufacturer>
     <price currency="US">	&#36;17.50</price>
     <price currency="CAD">&#36;21.96</price>
     <price currency="EURO">&#8364;13.03</price>
@@ -28,7 +28,7 @@
   </product>
   <product>
     <productName>Dog Snuggle Basket</productName>
-    <manufacturer>&#36;ACME</manufacturer>
+    <manufacturer>ACME&#8482;</manufacturer>
     <price currency="US">&#36;14.25</price>
     <price currency="CAD">&#36;17.88</price>
     <price currency="EURO">&#8364;10.61</price>
