@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+const onSubmitHandler = (event)=>{
+event.preventDefault();
+const form = event.target;
+const input = form.inputbox;
+const radio = form.group_radio;
+const checkbox = form.group_checkbox;
+
+console.log(`Input value: ${input.value}`);
+console.log(`Radio button value: ${radio.value}`);
+checkbox.forEach(element => {
+    
+    if(element.checked)
+    console.log(`Check Box value: ${element.value}`);
+});
+
+
+}
+</script>
+<body>
+    <form onSubmit="return onSubmitHandler(event)" action="" method="get">
+        <input type="text" name="inputbox" value = "" required style="width: 300px;margin: 20px;" />
+       
+        <fieldset style="width: 300px;margin: 20px;" >
+            <input type="radio" value="A" name="group_radio">A</input>
+            <input type="radio" value="B" name="group_radio">B</input>
+        </fieldset>     
+
+        <fieldset style="width: 300px;margin: 20px;">
+            <input type="checkbox" value="X" name="group_checkbox">X</input>
+            <input type="checkbox" value="Y" name="group_checkbox">Y</input>
+        </fieldset>       
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
