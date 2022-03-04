@@ -75,7 +75,7 @@ const renderTable = (xmlData) => {
     }
 
     if (aGender.length == 0) {
-      //If any gender selected, then do not put a filter on gender with &&
+      //If no gender selected, then do not put a filter on gender with &&
       filteredNodes = nodes.filter(
         (obj) =>
           obj
