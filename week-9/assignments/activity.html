@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>Test Input</title>
+  </head>
+  <body>
+    <form onreset="onReset()" onsubmit="onSubmit(event)">
+      <input
+        type="text"
+        name="name"
+        id="input-name-term"
+        placeholder="enter name"
+      />
+      <button type="submit" >Apply filters</button>
+      <button type="reset">Reset</button>
+    </form>
+    <table >
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Value</th>
+        </tr>
+      </thead>
+      <tbody id="table-main">
+
+      </tbody>
+    </table>
+    <script type="text/javascript" src="./activity.js"></script>
+  </body>
+</html>
