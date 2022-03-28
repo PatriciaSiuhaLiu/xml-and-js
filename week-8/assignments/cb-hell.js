@@ -55,7 +55,7 @@ async function  main() {
   const data = await generateData();
   const processedData = await processData(data);
 
-  console.log("Finish");
+  console.log("Finish");//
 
 }
 
