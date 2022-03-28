@@ -33,16 +33,20 @@ const renderTable = (data, nameTerm) => {
   tableBody.innerHTML = rows;
 };
 
-loadData(`./data.json`).then((data) => renderTable(data));
+//changing from local to api url on vercel
+//loadData(`./data.json`).then((data) => renderTable(data));
+loadData(`https://xml-and-jsweek11-api.vercel.app/api/products`).then((data) => renderTable(data));
 
 const onSubmit = (event) => {
   event.preventDefault();
 
   const term = event.target.name.value;
 
-  loadData(`./data.json`).then((data) => renderTable(data, term));
+//  loadData(`./data.json`).then((data) => renderTable(data, term));
+  loadData(`https://xml-and-jsweek11-api.vercel.app/api/products`).then((data) => renderTable(data, term));
 };
 
 const onReset = () => {
-  loadData(`./data.json`).then((data) => renderTable(data));
+  //loadData(`./data.json`).then((data) => renderTable(data));
+  loadData(`https://xml-and-jsweek11-api.vercel.app/api/products`).then((data) => renderTable(data));
 };
