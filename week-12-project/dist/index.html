@@ -6,8 +6,12 @@
     <title>People</title>
 </head>
 <body>
-    <form>
-        <input id="input"/>
+    <form onsubmit="onSubmit(event)" onreset="onReset()">
+        <input 
+        type="text"
+        name="filterTerm"
+        id="input-term"
+        placeholder="Filter by Term"/>
         <button type="submit">Submit</button>
         <button type="reset">Reset</button>
         <table>

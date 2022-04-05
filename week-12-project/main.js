@@ -40,7 +40,7 @@ getAll().then(({ data }) => renderTable(data));
 const onSubmit = (event) => {
   event.preventDefault();
 
-  const term = event.target.name.value;
+  const term = event.target.filterTerm.value;
 
   getAll().then(({ data }) => renderTable(data, term));
 };
