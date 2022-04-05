@@ -36,8 +36,8 @@ tbody.innerHTML = rows;
 //     renderTable(data);
 // });
 getAll().then(({ data }) => renderTable(data));
-
-const onSubmit = (event) => {
+//As not being able to picked by html after browserify, exposing it using window.
+window.onSubmit = (event) => {
   event.preventDefault();
 
   const term = event.target.name.value;
@@ -45,8 +45,7 @@ const onSubmit = (event) => {
   getAll().then(({ data }) => renderTable(data, term));
 };
 
-const onReset = () => {
+window.onReset = () => {
   getAll().then(({ data }) => renderTable(data));
 };
 
-module.exports={onSubmit,onReset}
