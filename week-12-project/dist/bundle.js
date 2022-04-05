@@ -184,18 +184,7 @@ tbody.innerHTML = rows;
 // });
 getAll().then(({ data }) => renderTable(data));
 
-// const onSubmit = (event) => {
-//   event.preventDefault();
-
-//   const term = event.target.name.value;
-
-//   getAll().then(({ data }) => renderTable(data, term));
-// };
-
-// const onReset = () => {
-//   getAll().then(({ data }) => renderTable(data));
-// };
-function onSubmit(event){
+const onSubmit = (event) => {
   event.preventDefault();
 
   const term = event.target.name.value;
