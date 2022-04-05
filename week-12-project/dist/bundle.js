@@ -186,10 +186,11 @@ getAll().then(({ data }) => renderTable(data));
 //As not being able to picked by html after browserify, exposing it using window.
 window.onSubmit = (event) => {
   event.preventDefault();
-
-  const term = event.target.name.value;
-
-  getAll().then(({ data }) => renderTable(data, term));
+  const id = event.target.id.value;
+  const firstName = event.target.firstName.value;
+  const lastName = event.target.lastName.value;
+  const obj ={id:id,first_name:firstName,last_name:lastName}
+  getAll(obj).then(({ data }) => renderTable(data, term));
 };
 
 window.onReset = () => {
