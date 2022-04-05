@@ -6,7 +6,7 @@ const getAll = ({id,first_name,last_name,email,gender,ip_address}={})=>{ //empty
     let results = Array.from(people);
    // console.log(results);
 if(id){
-    results = results.filter((p)=>p.id===id)
+    results = results.filter((p)=>p.id==id)
 }
 if(first_name){
     results = results.filter((p)=>p.first_name===first_name)
