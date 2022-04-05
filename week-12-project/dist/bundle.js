@@ -195,4 +195,6 @@ const onSubmit = (event) => {
 const onReset = () => {
   getAll().then(({ data }) => renderTable(data));
 };
+
+module.exports={onSubmit,onReset}
 },{"./api/people.js":1}]},{},[3]);
