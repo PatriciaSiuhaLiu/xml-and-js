@@ -190,7 +190,7 @@ window.onSubmit = (event) => {
   const firstName = event.target.firstName.value;
   const lastName = event.target.lastName.value;
   const obj ={id:id,first_name:firstName,last_name:lastName}
-  getAll(obj).then(({ data }) => renderTable(data, term));
+  getAll(obj).then(({ data }) => renderTable(data));
 };
 
 window.onReset = () => {
