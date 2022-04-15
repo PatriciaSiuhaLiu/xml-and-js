@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+</head>
+<body>
+    <form onsubmit="onSubmit(event)" onreset="onReset()">
+        <input
+          type="text"
+          name="cardNo"
+          id="input-card-no"
+          placeholder="Credit card no."
+        />
+        <input
+          type="text"
+          name="cardType"
+          id="input-card-type"
+          placeholder="Credit card type"
+        />
+        <input
+        type="text"
+        name="countryCode"
+        id="input-country-code"
+        placeholder="Country Code"
+        />
+        <input
+        type="text"
+        name="country"
+        id="country"
+        placeholder="Country"
+        />
+        <button type="submit">Apply filters</button>
+        <button type="reset">Reset</button>
+      </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Credit card no.</th>
+                    <th>Credit card type</th>
+                    <th>Country Code</th>
+                    <th>Country</th>
+                </tr>
+            </thead>  
+            <tbody id="table-body"></tbody>   
+        </table>
+  
+    <script src="./bundle.js">
+    </script>
+</body>
+</html>
